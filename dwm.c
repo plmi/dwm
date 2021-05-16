@@ -179,11 +179,8 @@ static void focus(Client *c);
 static void focusin(XEvent *e);
 static void focusmon(const Arg *arg);
 static void focusstack(const Arg *arg);
-<<<<<<< ours
 static Atom getatomprop(Client *c, Atom prop);
-=======
 static void focuswin(const Arg* arg);
->>>>>>> theirs
 static int getrootptr(int *x, int *y);
 static long getstate(Window w);
 static int gettextprop(Window w, Atom atom, char *text, unsigned int size);
